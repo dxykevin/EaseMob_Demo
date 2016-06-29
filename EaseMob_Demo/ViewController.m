@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ChatViewController.h"
 #import <EMSDK.h>
 @interface ViewController () <EMClientDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *userNameTF;
@@ -62,6 +63,12 @@
     if (!error) {
         NSLog(@"退出成功");
     }
+}
+- (IBAction)pushChatVC:(id)sender {
+    
+    ChatViewController *chatVC = [[ChatViewController alloc] initWithConversationChatter:@"kevin" conversationType:(EMConversationTypeChat)];
+    chatVC.navigationItem.title = @"kevin";
+    [self.navigationController pushViewController:chatVC animated:YES];
 }
 
 - (void)didAutoLoginWithError:(EMError *)aError {

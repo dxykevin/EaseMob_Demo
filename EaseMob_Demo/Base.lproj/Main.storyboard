@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ipL-GL-8c0">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -55,12 +55,20 @@
                                     <action selector="logout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ok6-n6-V5P"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYs-y5-Spr">
+                                <rect key="frame" x="270" y="164" width="60" height="30"/>
+                                <state key="normal" title="跳转单聊"/>
+                                <connections>
+                                    <action selector="pushChatVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgJ-6m-AcM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.61309735430000001" blue="0.58513425659999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="roN-3S-esH" firstAttribute="top" secondItem="9Gg-wq-LAr" secondAttribute="bottom" constant="41" id="2cL-Qy-z6L"/>
                             <constraint firstItem="W2V-H9-fYj" firstAttribute="leading" secondItem="roN-3S-esH" secondAttribute="leading" id="3QU-Ro-G84"/>
                             <constraint firstItem="9Gg-wq-LAr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KFQ-MB-A2h"/>
+                            <constraint firstItem="shO-f4-3ip" firstAttribute="top" secondItem="sYs-y5-Spr" secondAttribute="bottom" constant="27" id="L1r-4W-iIj"/>
                             <constraint firstItem="9Gg-wq-LAr" firstAttribute="top" secondItem="shO-f4-3ip" secondAttribute="bottom" constant="34" id="NLK-zr-jEM"/>
                             <constraint firstItem="shO-f4-3ip" firstAttribute="width" secondItem="9Gg-wq-LAr" secondAttribute="width" id="Ths-Dg-mwU"/>
                             <constraint firstItem="shO-f4-3ip" firstAttribute="leading" secondItem="9Gg-wq-LAr" secondAttribute="leading" id="UF7-NX-fIz"/>
@@ -69,14 +77,34 @@
                             <constraint firstItem="W2V-H9-fYj" firstAttribute="top" secondItem="roN-3S-esH" secondAttribute="bottom" constant="22" id="b8f-Hs-PWO"/>
                             <constraint firstItem="roN-3S-esH" firstAttribute="leading" secondItem="9Gg-wq-LAr" secondAttribute="leading" id="lkF-TR-LSV"/>
                             <constraint firstItem="DD3-7l-Ta3" firstAttribute="centerY" secondItem="roN-3S-esH" secondAttribute="centerY" id="rGA-1i-10k"/>
+                            <constraint firstItem="sYs-y5-Spr" firstAttribute="centerX" secondItem="shO-f4-3ip" secondAttribute="centerX" id="v0K-4v-UvZ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="JAp-YX-06c"/>
                     <connections>
                         <outlet property="pwdTF" destination="9Gg-wq-LAr" id="F03-mU-Tki"/>
                         <outlet property="userNameTF" destination="shO-f4-3ip" id="v2s-Eq-lxw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1141" y="348"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MK6-eY-hkQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ipL-GL-8c0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PNc-cZ-1jT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="orq-Lu-IYw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZXi-j3-mtC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="329" y="348"/>
         </scene>
