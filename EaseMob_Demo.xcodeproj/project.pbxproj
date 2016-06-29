@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138F844A4803C5C7FE3FF5E6 /* libPods-EaseMob_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33925A5474B6B7D57E297D3 /* libPods-EaseMob_Demo.a */; };
+		C9107DC71D236E1C008D96EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9107DC61D236E1C008D96EE /* main.m */; };
+		C9107DCA1D236E1C008D96EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9107DC91D236E1C008D96EE /* AppDelegate.m */; };
+		C9107DCD1D236E1C008D96EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9107DCC1D236E1C008D96EE /* ViewController.m */; };
+		C9107DD01D236E1C008D96EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9107DCE1D236E1C008D96EE /* Main.storyboard */; };
+		C9107DD21D236E1C008D96EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9107DD11D236E1C008D96EE /* Assets.xcassets */; };
+		C9107DD51D236E1C008D96EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9107DD31D236E1C008D96EE /* LaunchScreen.storyboard */; };
+		C9107DE01D236E1C008D96EE /* EaseMob_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9107DDF1D236E1C008D96EE /* EaseMob_DemoTests.m */; };
+		C9107DEB1D236E1C008D96EE /* EaseMob_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9107DEA1D236E1C008D96EE /* EaseMob_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9107DDC1D236E1C008D96EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9107DBA1D236E1C008D96EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9107DC11D236E1C008D96EE;
+			remoteInfo = EaseMob_Demo;
+		};
+		C9107DE71D236E1C008D96EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9107DBA1D236E1C008D96EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9107DC11D236E1C008D96EE;
+			remoteInfo = EaseMob_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26D7E37F097575FAAE764454 /* Pods-EaseMob_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseMob_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseMob_Demo/Pods-EaseMob_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		C9107DC21D236E1C008D96EE /* EaseMob_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseMob_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9107DC61D236E1C008D96EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9107DC81D236E1C008D96EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9107DC91D236E1C008D96EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9107DCB1D236E1C008D96EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9107DCC1D236E1C008D96EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9107DCF1D236E1C008D96EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9107DD11D236E1C008D96EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9107DD41D236E1C008D96EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9107DD61D236E1C008D96EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9107DDB1D236E1C008D96EE /* EaseMob_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseMob_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9107DDF1D236E1C008D96EE /* EaseMob_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EaseMob_DemoTests.m; sourceTree = "<group>"; };
+		C9107DE11D236E1C008D96EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9107DE61D236E1C008D96EE /* EaseMob_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseMob_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9107DEA1D236E1C008D96EE /* EaseMob_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EaseMob_DemoUITests.m; sourceTree = "<group>"; };
+		C9107DEC1D236E1C008D96EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33925A5474B6B7D57E297D3 /* libPods-EaseMob_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseMob_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66AD1C9D4CE073A3571F78A /* Pods-EaseMob_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseMob_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseMob_Demo/Pods-EaseMob_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9107DBF1D236E1C008D96EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138F844A4803C5C7FE3FF5E6 /* libPods-EaseMob_Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9107DD81D236E1C008D96EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9107DE31D236E1C008D96EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CC53E3F062395A2889716E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F33925A5474B6B7D57E297D3 /* libPods-EaseMob_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		601019DEA75C009D8B482D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F66AD1C9D4CE073A3571F78A /* Pods-EaseMob_Demo.debug.xcconfig */,
+				26D7E37F097575FAAE764454 /* Pods-EaseMob_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9107DB91D236E1C008D96EE = {
+			isa = PBXGroup;
+			children = (
+				C9107DC41D236E1C008D96EE /* EaseMob_Demo */,
+				C9107DDE1D236E1C008D96EE /* EaseMob_DemoTests */,
+				C9107DE91D236E1C008D96EE /* EaseMob_DemoUITests */,
+				C9107DC31D236E1C008D96EE /* Products */,
+				601019DEA75C009D8B482D20 /* Pods */,
+				08CC53E3F062395A2889716E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9107DC31D236E1C008D96EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9107DC21D236E1C008D96EE /* EaseMob_Demo.app */,
+				C9107DDB1D236E1C008D96EE /* EaseMob_DemoTests.xctest */,
+				C9107DE61D236E1C008D96EE /* EaseMob_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9107DC41D236E1C008D96EE /* EaseMob_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C9107DC81D236E1C008D96EE /* AppDelegate.h */,
+				C9107DC91D236E1C008D96EE /* AppDelegate.m */,
+				C9107DCB1D236E1C008D96EE /* ViewController.h */,
+				C9107DCC1D236E1C008D96EE /* ViewController.m */,
+				C9107DCE1D236E1C008D96EE /* Main.storyboard */,
+				C9107DD11D236E1C008D96EE /* Assets.xcassets */,
+				C9107DD31D236E1C008D96EE /* LaunchScreen.storyboard */,
+				C9107DD61D236E1C008D96EE /* Info.plist */,
+				C9107DC51D236E1C008D96EE /* Supporting Files */,
+			);
+			path = EaseMob_Demo;
+			sourceTree = "<group>";
+		};
+		C9107DC51D236E1C008D96EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9107DC61D236E1C008D96EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9107DDE1D236E1C008D96EE /* EaseMob_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9107DDF1D236E1C008D96EE /* EaseMob_DemoTests.m */,
+				C9107DE11D236E1C008D96EE /* Info.plist */,
+			);
+			path = EaseMob_DemoTests;
+			sourceTree = "<group>";
+		};
+		C9107DE91D236E1C008D96EE /* EaseMob_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9107DEA1D236E1C008D96EE /* EaseMob_DemoUITests.m */,
+				C9107DEC1D236E1C008D96EE /* Info.plist */,
+			);
+			path = EaseMob_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9107DC11D236E1C008D96EE /* EaseMob_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9107DEF1D236E1C008D96EE /* Build configuration list for PBXNativeTarget "EaseMob_Demo" */;
+			buildPhases = (
+				89F6CD36455A6BAAE9BAA117 /* [CP] Check Pods Manifest.lock */,
+				C9107DBE1D236E1C008D96EE /* Sources */,
+				C9107DBF1D236E1C008D96EE /* Frameworks */,
+				C9107DC01D236E1C008D96EE /* Resources */,
+				016B75467AD4E81CE2A5A9D5 /* [CP] Embed Pods Frameworks */,
+				87799F8F2A99CD9192D88F36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseMob_Demo;
+			productName = EaseMob_Demo;
+			productReference = C9107DC21D236E1C008D96EE /* EaseMob_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9107DDA1D236E1C008D96EE /* EaseMob_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9107DF21D236E1C008D96EE /* Build configuration list for PBXNativeTarget "EaseMob_DemoTests" */;
+			buildPhases = (
+				C9107DD71D236E1C008D96EE /* Sources */,
+				C9107DD81D236E1C008D96EE /* Frameworks */,
+				C9107DD91D236E1C008D96EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9107DDD1D236E1C008D96EE /* PBXTargetDependency */,
+			);
+			name = EaseMob_DemoTests;
+			productName = EaseMob_DemoTests;
+			productReference = C9107DDB1D236E1C008D96EE /* EaseMob_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9107DE51D236E1C008D96EE /* EaseMob_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9107DF51D236E1C008D96EE /* Build configuration list for PBXNativeTarget "EaseMob_DemoUITests" */;
+			buildPhases = (
+				C9107DE21D236E1C008D96EE /* Sources */,
+				C9107DE31D236E1C008D96EE /* Frameworks */,
+				C9107DE41D236E1C008D96EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9107DE81D236E1C008D96EE /* PBXTargetDependency */,
+			);
+			name = EaseMob_DemoUITests;
+			productName = EaseMob_DemoUITests;
+			productReference = C9107DE61D236E1C008D96EE /* EaseMob_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9107DBA1D236E1C008D96EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HoldCourt;
+				TargetAttributes = {
+					C9107DC11D236E1C008D96EE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C9107DDA1D236E1C008D96EE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C9107DC11D236E1C008D96EE;
+					};
+					C9107DE51D236E1C008D96EE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C9107DC11D236E1C008D96EE;
+					};
+				};
+			};
+			buildConfigurationList = C9107DBD1D236E1C008D96EE /* Build configuration list for PBXProject "EaseMob_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9107DB91D236E1C008D96EE;
+			productRefGroup = C9107DC31D236E1C008D96EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9107DC11D236E1C008D96EE /* EaseMob_Demo */,
+				C9107DDA1D236E1C008D96EE /* EaseMob_DemoTests */,
+				C9107DE51D236E1C008D96EE /* EaseMob_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9107DC01D236E1C008D96EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9107DD51D236E1C008D96EE /* LaunchScreen.storyboard in Resources */,
+				C9107DD21D236E1C008D96EE /* Assets.xcassets in Resources */,
+				C9107DD01D236E1C008D96EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9107DD91D236E1C008D96EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9107DE41D236E1C008D96EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016B75467AD4E81CE2A5A9D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseMob_Demo/Pods-EaseMob_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87799F8F2A99CD9192D88F36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseMob_Demo/Pods-EaseMob_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F6CD36455A6BAAE9BAA117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9107DBE1D236E1C008D96EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9107DCD1D236E1C008D96EE /* ViewController.m in Sources */,
+				C9107DCA1D236E1C008D96EE /* AppDelegate.m in Sources */,
+				C9107DC71D236E1C008D96EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9107DD71D236E1C008D96EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9107DE01D236E1C008D96EE /* EaseMob_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9107DE21D236E1C008D96EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9107DEB1D236E1C008D96EE /* EaseMob_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9107DDD1D236E1C008D96EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9107DC11D236E1C008D96EE /* EaseMob_Demo */;
+			targetProxy = C9107DDC1D236E1C008D96EE /* PBXContainerItemProxy */;
+		};
+		C9107DE81D236E1C008D96EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9107DC11D236E1C008D96EE /* EaseMob_Demo */;
+			targetProxy = C9107DE71D236E1C008D96EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9107DCE1D236E1C008D96EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9107DCF1D236E1C008D96EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9107DD31D236E1C008D96EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9107DD41D236E1C008D96EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9107DED1D236E1C008D96EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9107DEE1D236E1C008D96EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9107DF01D236E1C008D96EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66AD1C9D4CE073A3571F78A /* Pods-EaseMob_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EaseMob_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EaseMob_Demo/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/EaseMob_Demo/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HoldCourt.EaseMob-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9107DF11D236E1C008D96EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D7E37F097575FAAE764454 /* Pods-EaseMob_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EaseMob_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EaseMob_Demo/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/EaseMob_Demo/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HoldCourt.EaseMob-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9107DF31D236E1C008D96EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EaseMob_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HoldCourt.EaseMob-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EaseMob_Demo.app/EaseMob_Demo";
+			};
+			name = Debug;
+		};
+		C9107DF41D236E1C008D96EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EaseMob_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HoldCourt.EaseMob-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EaseMob_Demo.app/EaseMob_Demo";
+			};
+			name = Release;
+		};
+		C9107DF61D236E1C008D96EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EaseMob_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HoldCourt.EaseMob-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EaseMob_Demo;
+			};
+			name = Debug;
+		};
+		C9107DF71D236E1C008D96EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EaseMob_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HoldCourt.EaseMob-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EaseMob_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9107DBD1D236E1C008D96EE /* Build configuration list for PBXProject "EaseMob_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9107DED1D236E1C008D96EE /* Debug */,
+				C9107DEE1D236E1C008D96EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9107DEF1D236E1C008D96EE /* Build configuration list for PBXNativeTarget "EaseMob_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9107DF01D236E1C008D96EE /* Debug */,
+				C9107DF11D236E1C008D96EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9107DF21D236E1C008D96EE /* Build configuration list for PBXNativeTarget "EaseMob_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9107DF31D236E1C008D96EE /* Debug */,
+				C9107DF41D236E1C008D96EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9107DF51D236E1C008D96EE /* Build configuration list for PBXNativeTarget "EaseMob_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9107DF61D236E1C008D96EE /* Debug */,
+				C9107DF71D236E1C008D96EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9107DBA1D236E1C008D96EE /* Project object */;
+}
